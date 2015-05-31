@@ -35,6 +35,8 @@
 
 \usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
 % To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+%\usepackage{geometry}
+%\geometry{lmargin=1in }
 
 \usepackage{hyperref} % Required for adding links	and customizing them
 \definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
@@ -55,8 +57,7 @@
 %----------------------------------------------------------------------------------------
 
 \par{\centering{\Huge Peter \textsc{Borenstein}}\bigskip\par} % Your name
-
-\section{Personal Data}
+\noindent\rule{14.3cm}{0.4pt}
 
 \begin{tabular}{rl}
 \textsc{Address:} & 1214 SW 16th Ave Apt D, Gainesville, Florida \\
@@ -65,27 +66,28 @@
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE 
+%	WORK EXPERIENCE
 %----------------------------------------------------------------------------------------
 
 \section{Work Experience}
 
 \begin{tabular}{r|p{11cm}}
-\emph{Current} & 1\textsuperscript{st} year Analyst at \textsc{Lehman Brothers}, London \\
-\textsc{Mar 2012} & \emph{Commodities Structured Trading}\\ 
-& \footnotesize{Developed spreadsheets for risk analysis on exotic derivatives on a wide array of commodities (\textit{ags, oils, precious} and \textit{base metals}), managed blotter and secondary trades on structured notes, liaised with Middle Office, Sales and Structuring for bookkeeping.}\\
+\emph{Current} &  Co-Founder and Hardware Lead at \textsc{Verigo}, Gainesville FL \\
+\textsc{Aug 2013} & \emph{Designed, developed, debugged, and coded a low power wireless data logger for monitoring supply chains}\\
+&\footnotesize{The devices uses Bluetooth Low Energy to communicate logged temperature and humidity data to smartphones \& tablets. Passed FCC and CE certifications. Managed two part time engineers brought on after our seed funding round. \href{http://verigo.io/hardware.html}{Datasheet}}\\
+&\footnotesize{Raspberry Pis, Python scripts, and the BlueZ stack were used to create automated test equipment for manufacuting.}\\
 \multicolumn{2}{c}{} \\
 
 %------------------------------------------------
 
-\textsc{Jul 2010-Oct 2011} & Summer Intern at \textsc{Intech Inc}, Chicago \emph{}\\
-& \footnotesize{Received pre-placed offer from the Exotics Trading Desk as a result of very positive review. Rated ``\emph{truly distinctive}'' for Analytical Skills and Teamwork.}\\
+\textsc{May 2011-Dec 2011} & Test Technology Intern at \textsc{Intel}, Fort Colins, CO \emph{}\\
+& \footnotesize{Created test patterns for server chips pre-Silicon. Modeled scan chains allowing others to run tests. Used Perl to read though lengthy test logs for relevant data}\\
 \multicolumn{2}{c}{} \\
 
 %------------------------------------------------
 
-\textsc{Jan-Mar 2011} & Computer Technician at \textsc{Buy More}, Burbank \emph{}\\
-& \footnotesize{Worked in the Nerd Herd and helped to solve computer problems by asking customers to turn their computers off and on again.}
+\textsc{Jun 2010-Nov 2010} & Lifeguard at \textsc{University of Florida Housing Dept.}, Gainesville FL \emph{}\\
+& \footnotesize{Provided a safe swimming experience for others}\\
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
@@ -94,68 +96,45 @@
 
 \section{Education}
 
-\begin{tabular}{rl}	
-\textsc{July} 2012 & Master of Commerce in \textsc{Finance}, \textbf{The University of California}, Berkeley\\
-& 110/110 \small\emph{First Class Honours} | Major: Quantitative Finance\\
-& Thesis: ``Money is the Root of All Evil - Or is it?'' | \small Advisor: Prof. James \textsc{Smith}\\
-&\normalsize \textsc{Gpa}: 8.0/9.0\hyperlink{grds}{\hfill | \footnotesize Detailed List of Exams}\\
-&\\
+\begin{tabular}{rl}
+\textsc{December} 2013 & Bachelor of Science in \textsc{Electrical Engineering}, \textbf{University of Florida}\\
+& \small{Major: Electrical Engineering  | \emph{Cum Laude}  |  Digital Design Specialization}\\
+&\normalsize \textsc{GPA}: 3.66/4.0\hyperlink{grds}{\hfill | \footnotesize List of Courses}\\
 
-%------------------------------------------------
 
-\textsc{July} 2011& Undergraduate Degree in \textsc{}\textsc{Business Studies} \\&110/110 \small\emph{Commerce Specialization}, \normalsize\textbf{The University of California}, Berkeley\\
-& Heavily specialized in mundane paperwork | \small Advisor: Stefano \textsc{Bonini}\\
-&\normalsize \textsc{Gpa}: 7.5/9.0 \hyperlink{grds_usc}{\hfill| \footnotesize Detailed List of Exams}\\
-&\\
-
-%------------------------------------------------
-
-\textsc{Fall} 2008 & Exchange Semester at \textbf{University of Southern California}, Los Angeles\\
-& \textsc{Gpa}: 8.0/9.0 \hyperlink{grds_usc}{\hfill| \footnotesize Detailed List of Exams}\\
-&\\
-
-%------------------------------------------------
-
-\textsc{July} 2006& \textbf{Liceo Classico ``E. Duni''}, Matera | Final Grade: 100/100
 \end{tabular}
 
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\begin{tabular}{rl}
+Top skills & C and Git\\
+Basic Knowledge & Python, C++, Perl, Linux system programming, Bash, VHDL\\
+IDEs & IAR Workbench, Code Composer Studio, Atmel Studio\\
+PCB layout & Eagle, PCB Artist, Altera\\
+Tools Used &  Oscilloscopes, Logic Analyzers, Multimeters, SMU\\
+TI E2E MVP & Recognized for sharing expertise, solutions, and \\ &  \hspace{5mm} experience to help other community members\\
+\\
+\end{tabular}
 %----------------------------------------------------------------------------------------
 %	SCHOLARSHIPS AND ADDITIONAL INFO
 %----------------------------------------------------------------------------------------
 
-\section{Scholarships and Certificates}
+\section{UF IEEE Student Chapter Involvement}
 
 \begin{tabular}{rl}
-\textsc{Sept.} 2012 & Faculty of Science Masters Scholarship \footnotesize(\$30,000)\normalsize\\
+2011-2012 Academic Year &  Secretary (elected) \\
 
-\textsc{June} 2010 & {\textsc{Gmat}\textregistered}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}: 730 (\textsc{q:50;v:39}) 96\textsuperscript{th} percentile; \textsc{awa}: 6.0/6.0 (89\textsuperscript{th} percentile)
+2010-2011 Academic Year & Advertising Chair \\
+
+2011 & 1\textsuperscript{st} place IEEE South East Conference Engineering Ethics Competition\\
+
+Various Dates & Introduced local grade students to robotics with Lego Mindstorm\\
 \end{tabular}
 
-%----------------------------------------------------------------------------------------
-%	LANGUAGES
-%----------------------------------------------------------------------------------------
-
-\section{Languages}
-
-\begin{tabular}{rl}
-\textsc{English:} & Fluent\\
-
-\textsc{Italian:} & Mothertongue\\
-
-\textsc{French:} & Basic Knowledge\\
-\end{tabular}
-
-%----------------------------------------------------------------------------------------
-%	COMPUTER SKILLS 
-%----------------------------------------------------------------------------------------
-
-\section{Computer Skills}
-
-\begin{tabular}{rl}
-Basic Knowledge: & \textsc{php}, my\textsc{sql}, \textsc{html}, Access, \textsc{Linux}, ubuntu, {\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}\\
-
-Intermediate Knowledge: & \textsc{vba}, Excel, Word, PowerPoint\\
-\end{tabular}
 
 %----------------------------------------------------------------------------------------
 %	INTERESTS AND ACTIVITIES
@@ -163,9 +142,8 @@ Intermediate Knowledge: & \textsc{vba}, Excel, Word, PowerPoint\\
 
 \section{Interests and Activities}
 
-Technology, Open-Source, Programming\\
-Paradoxes in Decision Making, Psychoanalysis, Behavioural Finance\\
-Football, Travelling
+Bluetooth, Internet of Things, Open-Source, Vim, Cryptography\\
+Distance Running, League of Legends
 
 %----------------------------------------------------------------------------------------
 
@@ -175,56 +153,32 @@ Football, Travelling
 %	GRADE TABLES
 %----------------------------------------------------------------------------------------
 
-\par{\centering\Large \hypertarget{grds}{Master of Science in \textsc{Finance}}\par}\large{\centering Grades\par}\normalsize
+\par{\centering\Large \hypertarget{grds}{Bachelor of Science in \textsc{Electrical Engineering}}\par}\large{\centering Relevant Coursework\par}\normalsize
 
 \begin{center}
 \begin{tabular}{lcc}
-\multicolumn{1}{c}{\textsc{Exam}} & \textsc{Grade}&\textsc{Credit Hrs}\\ \hline
-Corporate Finance (Valuation) & 25 & 6\\
-Financial Statement Analysis & 28 & 6\\
-Statistics & 27 & 6\\
-Theory of Finance & 26 & 6\\
-Quantitative Methods for Finance & 30 & 6\\
-Econometrics & 24 & 6\\
-Derivatives & 31 & 6\\
-Management of Financial and Insurance Companies & 30 & 6\\
-Business Law & 31 & 6\\
-Investment Banking	& 28 & 6\\ \\		
-Behavioral Models for Economics and Finance	 & 29 & 6\\
-Numerical Methods for Finance & 29 & 6\\
-Advanced Derivatives & 30 & 6\\
-Fixed Income (Advanced Methods) & 30 & 6\\ \\
-English Language & 30 &	4\\
-French Language & 31 &	4\\	
-Internship & & 8\\		
-Final Thesis & & 20\\	
-& Total & 120\\\cline{2-3}
-&\textsc{Gpa}&\textbf{8.0}
-\end{tabular}
-\end{center}
-\bigskip
-\hrule
-\bigskip
+\multicolumn{1}{c}{\textsc{Course}} & \textsc{Grade}&\textsc{Credit Hrs}\\ \hline
+Digital Logic & A & 4\\
+Digital Computer Architecture & B & 4\\
+Digital Design & A- & 4\\
+Microprocessor Applications & A & 4\\
+Computer Programming for Engineers C++ & A & 2\\
+Circuits 1 & B & 4\\
+Circuits 2 & A- & 4 \\
+Electronic Circuits & B+ & 4\\
+Statistics & A & 3\\
+Linear Algebra & A & 3\\
+Signals and Systems & A- & 3\\
+Audio Engineering & B+ & 3\\
+Solid State Electronics & B+ & 3\\
+Electromagnetic Fields & A- & 3\\
+Communication Systems and Components & B & 3\\
+Linear Control Systems & A & 3\\ \\
+Electrical Engineering Design 1 & A & 4\\
+Electrical Engineering Design 2 & C+ & 4\\
 
-%------------------------------------------------
-
-\bigskip
-
-\par{\centering\Large \hypertarget{grds_usc}{Exchange Program at \textsc{usc}, Los Angeles}\par}\large{\centering Grades\par}\normalsize
-
-\begin{center}
-\begin{tabular}{lcc}
-\multicolumn{1}{c}{\textsc{Exam}} & \textsc{Grade} & \textsc{Grade Points}\\ 
-\hline
-Corporate Financial Strategy & A & 4\\
-Derivatives & A & 4\\
-Money, Credit, and Banking & A & 4\\
-Business Strategy & A- & 3.5\\
-& &\\\cline{2-3}
-& \textsc{Gpa} & \textbf{3.875}
 \end{tabular}
 \end{center}
 
-%----------------------------------------------------------------------------------------
 
 \end{document}

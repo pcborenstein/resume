@@ -1,0 +1,2 @@
+to compile tex file run:
+xelatex Borenstein_Peter.tex
